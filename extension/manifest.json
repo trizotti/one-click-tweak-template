@@ -1,0 +1,21 @@
+{
+  "name": "one-click-tweak",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Run your tweak with the action button.",
+  "homepage_url": "https://trizotti.github.io/one-click-tweak",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Run tweak"
+  },
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs"
+  ]
+}
