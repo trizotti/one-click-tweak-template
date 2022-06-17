@@ -6,6 +6,7 @@ Create tweaks for third-party apps or sites and run them with one click using a 
 Clone this repo and make the project your own changing the content of the package.json and README.md files.
 With developer mode activated in Chrome, add a new unpacked extension pointing to the './extension'
 folder from this project.
+Keep the extension pinned for easily use the action button.
 
 ## Development
 ```
